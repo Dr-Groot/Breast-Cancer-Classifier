@@ -107,7 +107,12 @@ Now  we head back toward's terminal and navigating to the directory just created
 
 Now lets back to the main directory and use tree command to inspect the project structure: 
 ![image](https://user-images.githubusercontent.com/63160825/157170082-3494eccb-5bc3-4a18-aa9f-5d9b26a0bb23.png)
-As we can see the data set in the **‘datasets/original’** folder and it is then divided into several faux patient’s ID. Images in that patient’s ID is separated by **0 (benign)** and **1 (malignant)** directory, for eg:
+As we can see the data set in the **‘datasets/original’** folder and it is then divided into several faux patient’s ID. 
+
+![image](https://user-images.githubusercontent.com/63160825/157170460-154d9f2c-d4ab-494d-87b1-f3da4b3e2709.png)
+![image](https://user-images.githubusercontent.com/63160825/157170471-6d70a3fc-5d1c-471e-aade-1035945f345b.png)
+
+Images in that patient’s ID is separated by **0 (benign)** and **1 (malignant)** directory, for eg:
 			           
 **9234** (Patient ID)
 as 
