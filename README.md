@@ -137,9 +137,13 @@ Starting from **Line1** importing the necessary package that is **os** stands fo
 ![image](https://user-images.githubusercontent.com/63160825/157170996-6a6052ce-5415-48a0-84e8-0f9b6345cc57.png)
 
 Then in **Line3**, our config file is containing the path to the original data set (downloaded from Kaggle).
+
 In **Line5** we are providing a base path where we are going to store our image after validation, testing and training split. 
+
 From **Line6-8** we give deriving path to testing, validation and training output directories by using ‘BASE_PATH’
+
 **Line10** we are assigning the percentage of the data that has to be used for the training by using ‘TRAIN_SPLIT’. We have set 80% here while rest of the 20% is used for testings.
+
 In **Line11** we are reserving some of the data for validation. We are specify-ing 10% of the data set for validation (after splitting of the testing data).
 
 Next we will be building image data set for Breast Cancer.
