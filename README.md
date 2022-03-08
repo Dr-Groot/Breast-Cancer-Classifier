@@ -69,18 +69,50 @@ The data set was originally curate by **Janowczyk**, **Madabhu-shi** and **Roa**
 Slide image’s are naturally big (in terms of territorial dimen-sions), so making them easier to work we take all total **2,27,524 patches** of 50✕50 pixels were extract, that includes:
 - **1,98,738** negative example (no Breast Cancer)
 - **78,786** positive example (indicates Breast Cancer which were founded in the patches)
-- 
+
 This clearly shows that we are taking class data 2x the num-bers of negatives data point than positive one’s. The image’s in the data set has a specified filename structure.
 For example we take filename of a data set: **8863_idx5_x1101_y1151_class1.png**.
 
 So we can Interpret this filename by:
-**Patient Id:** 8863_idx5
-**Coordinate of X:** 1101
-**Coordinate of Y:** 1151
-**Class labels:** 1 (Here 1 indicates IDC and 0 indicates no IDC)  
+- **Patient Id:** 8863_idx5
+- **Coordinate of X:** 1101
+- **Coordinate of Y:** 1151
+- **Class labels:** 1 (Here 1 indicates IDC and 0 indicates no IDC)  
 
 Above figure shows both positive and negative examples.
 Our goal is to use this histology images to train a Deep Learn-ing model capable of telling the difference between the two class labels 1 and 0.
+
+# PREPARING A MODEL FOR CANCER CLASSIFICATION
+
+By using pip which is a python package manager, we will in-stall some of python Packages:
+
+-	**Numpy:** supports large multidimensional matrices and array, along with high level mathematical function collection for operating these array.
+-	**Pillow:** It is a python package which support wide ranges image file format’s and it is free for python programming language that add support’s for saving, manipulating and opening different format’s of image file.
+-	**TenserFlow Keras:** Keras is a high level API for training and building Deep Learning model. It is used for production, state of the art research and prototyping.
+-	**Imutils:** It is to make image processing function such as skeletonization, displaying, rotation, translation and resizing Matplotlib image as it is series of convenience function.
+-	**Sckit-Learn** and **Matplotlip**
+
+Applying these set of instructions to install all these packages using Terminal.
+
+![image](https://user-images.githubusercontent.com/63160825/157169795-a7424a39-3a06-470b-8dc5-a28afd4bd231.png)
+
+# PROJECT STRUCTURE:
+
+Writing all the algorithms and scripts in python we save them all in a main directory named as **‘breast-cancer-classification’**. Inside this folder we created a new directory name as ‘**datasets**’ and inside datasets directory we created a new directory call ‘**orginal**’.
+
+After arranging directories we will download the data set (‘Breast Histopathology Images’) from the official Kaggle 
+![image](https://user-images.githubusercontent.com/63160825/157170038-166f5b34-339f-4aed-9ee5-47d92c255b89.png)
+website (www.kaggle.com) by creating an account. We save the .zip file in breast-cancer-classificaton/datasets/orignal .
+Now  we head back toward's terminal and navigating to the directory just created and unzip the file.
+
+Now lets back to the main directory and use tree command to inspect the project structure: 
+![image](https://user-images.githubusercontent.com/63160825/157170082-3494eccb-5bc3-4a18-aa9f-5d9b26a0bb23.png)
+As we can see the data set in the **‘datasets/original’** folder and it is then divided into several faux patient’s ID. Images in that patient’s ID is separated by **0 (benign)** and **1 (malignant)** directory, for eg:
+			           
+**9234** (Patient ID)
+as 
+**0**(images for benign)  **1**(images for malignant)
+
 
 
 
