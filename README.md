@@ -313,7 +313,26 @@ The training history plot consist’s of training/validation accura-cy and train
 
 Now we will run our final script ‘**train_model.py**’ in terminal:
 
+![image](https://user-images.githubusercontent.com/63160825/157175046-f2d74f35-6558-4b22-bb85-57b83749a38e.png)
+
 As in the above Figure of terminal you can see that we have executed our ‘**train_model.py**’ script in the terminal and train-ing of our model started taking place. I was using my Mac-Book Air in this whole project and it has taken allot of time for training this model as you can see in above terminal image that every approach is going for about 2000s 300ms/step which is very long time taking according to such amount of data set and whole lot there were about 40 total approaches to take place and it has taken almost 3 hours to complete 1 to 4 approaches and about 85% of the 5th one so you can as-sume how much time it will take, approximately 12 hours to complete. 
+
+![image](https://user-images.githubusercontent.com/63160825/157175065-1251f837-ab5e-4e44-92ac-cab827a973ae.png)
+
+Output that our model has achieved is for about 85% accura-cy, while the raw accuracy is heavily weighted that is why it is classified no-cancer/benign correctly for 93% for all of the time.
+
+![image](https://user-images.githubusercontent.com/63160825/157175097-fbf5a7cc-8a3f-49d7-b713-4fbe5c1c122b.png)
+
+The above graph is a our CancerNet classification model training plot generated with Keras.
+
+For understanding our model performance in the deepest level compute the specificity and sensitivity. Our sensitivity is the true positive’s that we also have predicted as positive for about 85.03%. Measurement of specificity is our true negative about 84.70%. 
+
+**We have to be very careful with our negative false here as we did not want to classify that someone as No cancer when there are positive one. Same wise our positive false is also important as we did not want someone to be Cancer positive and then subjected them to expensive, in-vasive and painful treatment when they did not need them.**	
+	      
+**Always there should be balance between specificity and sensitivity that’s a Deep learning or Machine Learning Engineer should manage and when coming to the Health Care and medical facility it become more important.**
+
+The challenging data set along with class imbalance lead’s for obtaining **~85% specificity**, **~86% classification** accuracy and **~85% sensitivity**.
+
 
 
 
