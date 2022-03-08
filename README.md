@@ -30,29 +30,29 @@ To analyse the cellular structure in the breast histology image they were instea
 # Hardware and Software
 
 ## Hardware:
-•	Central Processing Unit (CPU) : Minimum of Intel Core i5 6th Generation or AMD equivalents processor are also optimal.
-•	RAM: About 16 GB is recommended but 8 GB is mini-mum.
-•	Graphic Processing Unit (GPU): NVIDIA GeForce GTX960 or higher but AMD GPU’s are not comfortable with deep learning.
-•	Operating System:  Ubuntu or Microsoft Windows 10. Not use MacBook Air as it takes allot of time for training the model else MacBook Pro is better.
+-	**Central Processing Unit (CPU) :** Minimum of Intel Core i5 6th Generation or AMD equivalents processor are also optimal.
+-	**RAM**: About 16 GB is recommended but 8 GB is mini-mum.
+-	**Graphic Processing Unit (GPU):** NVIDIA GeForce GTX960 or higher but AMD GPU’s are not comfortable with deep learning.
+- **Operating System:**  Ubuntu or Microsoft Windows 10. Not use MacBook Air as it takes allot of time for training the model else MacBook Pro is better.
 
 ## Software:
-•	Anaconda: Python interpreter flavour comes in two type  for python 2.7 and python 3.6
-•	Python: Programming language use for scripting the Deep Learning algorithm.
+-	**Anaconda:** Python interpreter flavour comes in two type  for python 2.7 and python 3.6
+-	**Python:** Programming language use for scripting the Deep Learning algorithm.
 
 # Technology Used
 
 ![image](https://user-images.githubusercontent.com/63160825/157168734-fde54534-f2c4-4f21-9b6d-d1a01fcfd173.png)
 
-•	MEDICAL COMPUTER VISION: Computer Vision helps medical professional in saving their most valuable time on some fundamental or basic task but also in saving patient’s life. The technology application used for the medical to per-form by extending current ways that it is already being used and adding a layer’s of creativity and imagination. Here we are using medical computer vision in solving breast cancer classification in an appropriate and accurate manner.
+-	**MEDICAL COMPUTER VISION:** Computer Vision helps medical professional in saving their most valuable time on some fundamental or basic task but also in saving patient’s life. The technology application used for the medical to per-form by extending current ways that it is already being used and adding a layer’s of creativity and imagination. Here we are using medical computer vision in solving breast cancer classification in an appropriate and accurate manner.
 
-•	PYTHON: Python is a high level, interpreted, general pur-pose programming language. It is created by Guido van Rossum and was released in 1991. It is a garbage collected and is dynamically typed as it also support multiple pro-gramming paradigm including structured, OOP (Object Ori-ented Programming language) and functional programming. Here we will be using python for scripting Deep Learning model as for splitting data set into different sets -training, validation and testing and also for training our model.
+-	**PYTHON:** Python is a high level, interpreted, general pur-pose programming language. It is created by Guido van Rossum and was released in 1991. It is a garbage collected and is dynamically typed as it also support multiple pro-gramming paradigm including structured, OOP (Object Ori-ented Programming language) and functional programming. Here we will be using python for scripting Deep Learning model as for splitting data set into different sets -training, validation and testing and also for training our model.
 
-•	KERAS: Keras which is an open source neural network li-brary written in python. Keras is a high level API which can run on the top of Theano (optimising compiler which are ex-cessed using NumPy-esque syntax),CNTK (Microsoft Cognitive Toolkit) and TenserFlow (open source software li-brary). It is all about enabling fast prototyping and experi-mentation while seamlessly running on Graphical Process Unit and Computer Processing Unit along with that it is ex-tensible, modular and user friendly. We are using Keras se-quential API’s to build CancerNet.  
+-	**KERAS:** Keras which is an open source neural network li-brary written in python. Keras is a high level API which can run on the top of Theano (optimising compiler which are ex-cessed using NumPy-esque syntax),CNTK (Microsoft Cognitive Toolkit) and TenserFlow (open source software li-brary). It is all about enabling fast prototyping and experi-mentation while seamlessly running on Graphical Process Unit and Computer Processing Unit along with that it is ex-tensible, modular and user friendly. We are using Keras se-quential API’s to build CancerNet.  
 
 ![image](https://user-images.githubusercontent.com/63160825/157168803-2e67deef-fbf9-47e0-89f4-0804ce557f61.png)
 
 
-•	TenserFlow & DEEP LEARNING: TenserFlow is created by Google for creating deep learning models. Deep Learning is used in multi layer neural network and is a category of Ma-chine Learning. It is basically used for building complex ap-plication with high accuracy. Using Deep Learning in this project we are splitting the data set and training the data set for accurate result as it will lead  to more work with less time including complex problem.
+-	**TenserFlow & DEEP LEARNING:** TenserFlow is created by Google for creating deep learning models. Deep Learning is used in multi layer neural network and is a category of Ma-chine Learning. It is basically used for building complex ap-plication with high accuracy. Using Deep Learning in this project we are splitting the data set and training the data set for accurate result as it will lead  to more work with less time including complex problem.
 
 ![image](https://user-images.githubusercontent.com/63160825/157168818-175a5f67-c048-430f-8627-0125ecc20424.png)
 
