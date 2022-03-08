@@ -56,4 +56,31 @@ To analyse the cellular structure in the breast histology image they were instea
 
 ![image](https://user-images.githubusercontent.com/63160825/157168818-175a5f67-c048-430f-8627-0125ecc20424.png)
 
+# DATABASE
+
+Machine learning or Deep Learning can not yield any accu-rate results until it is trained. For training we need previous re-ports or set of data (Database) for which we have to train our model according to the situation or problem that we have to solve. So by this you came to know why Database is so im-portant for using Deep Learning algorithms.
+
+Our problem is to deal with healthcare, specially Breast Can-cer and we came up to a solution that is designing a classifier for Breast Cancer Prediction using Deep Learning with Keras so for that we need allot of data so we are using data set for IDC (Invasive Ductal Carcinoma), the most common of Breast Cancer.
+
+![image](https://user-images.githubusercontent.com/63160825/157169289-6eb360d8-6b6d-48f0-a670-0b9359fdf903.png)
+
+The data set was originally curate by **Janowczyk**, **Madabhu-shi** and **Roa** et al but it is publicly available at Kaggle’s web-site. The original set of data is having **162 slide image scanned at 40x**.
+
+Slide image’s are naturally big (in terms of territorial dimen-sions), so making them easier to work we take all total **2,27,524 patches** of 50✕50 pixels were extract, that includes:
+- **1,98,738** negative example (no Breast Cancer)
+- **78,786** positive example (indicates Breast Cancer which were founded in the patches)
+- 
+This clearly shows that we are taking class data 2x the num-bers of negatives data point than positive one’s. The image’s in the data set has a specified filename structure.
+For example we take filename of a data set: **8863_idx5_x1101_y1151_class1.png**.
+
+So we can Interpret this filename by:
+**Patient Id:** 8863_idx5
+**Coordinate of X:** 1101
+**Coordinate of Y:** 1151
+**Class labels:** 1 (Here 1 indicates IDC and 0 indicates no IDC)  
+
+Above figure shows both positive and negative examples.
+Our goal is to use this histology images to train a Deep Learn-ing model capable of telling the difference between the two class labels 1 and 0.
+
+
 
