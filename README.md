@@ -3,7 +3,7 @@ The aim is to categorize and accurately identify the types and subtypes of breas
 
 Download Dataset [DOWNLOAD](https://www.kaggle.com/paultimothymooney/breast-histopathology-images/download)
 
-INTRODUCTION
+# INTRODUCTION
 
 In Breast Cancer Classification with Keras we are using mod-ern day method, technologies, processes and new ways of thinking of solving a problem in an accurate and effective manner by using techniques which are inspired by the work-ing of human brain and biological neural network and serves to improve Artificial Intelligence and which is applied in many fields of computer vision, speech recognition, natural lan-guage processing, drug design and audio recognition which is Deep Learning.
 
